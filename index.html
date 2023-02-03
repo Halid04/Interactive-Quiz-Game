@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Interactive Quiz Game</title>
+</head>
+<body>
+    <div class="bgImage"></div>
+
+    <div class="homeButton"></div>
+
+    <div class="firstContainer">
+        <h1>QUIZ PAPI!!</h1>
+        <div class="text">Divertimento senza limiti. Scarica le nostre carte quiz e metti alla prova le tue conoscenze in qualsiasi momento e luogo. Con quiz su vari argomenti e livelli di difficoltà, non c'è mai un momento noioso. Inizia subito e dimostra di essere il vero campione dei quiz! 
+        </div>
+        <button class="startQuiz">Inizia quiz!!</button>
+    </div>
+
+    <div class="secondContainer">
+        <div class="quizContainer"></div>
+        <div class="answersContainer">
+            <div class="a">
+                <input type="radio" name="Answergroup" id="answerA" >
+                <label for="answerA" class="answers"></label> 
+            </div>
+            <div class="b">
+                <input type="radio" name="Answergroup" id="answerB" >
+                <label for="answerB" class="answers"></label>
+            </div>
+            <div class="c">
+                <input type="radio" name="Answergroup" id="answerC" >
+                <label for="answerC" class="answers"></label>
+            </div>
+            <div class="d">
+                <input type="radio" name="Answergroup" id="answerD" >
+                <label for="answerD" class="answers"></label>
+            </div>
+        </div>
+
+        <button id="submit" class="submit">Submit</button>
+    </div>
+
+    <div class="thirdContainer"></div>
+
+    <script src="main.js"></script>
+</body>
+</html>
